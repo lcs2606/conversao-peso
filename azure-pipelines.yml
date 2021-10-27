@@ -24,7 +24,7 @@ stages:
       displayName: Build and Push
       inputs:
         containerRegistry: 'DockerHub'
-        repository: 'conversao-peso'
+        repository: 'lcs2606/conversao-peso'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
